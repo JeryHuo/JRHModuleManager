@@ -1,26 +1,21 @@
-//
 //  JRHModuleManager.swift
-//  JRHModuleManagerDemo
-//
 //  Created by huojiarong on 2018/3/21.
-//  Copyright © 2018年 huojiarong. All rights reserved.
-//
 
 import UIKit
 
-protocol YLModuleDelegate: UIApplicationDelegate{
+protocol JRHModuleDelegate: UIApplicationDelegate{
     
 }
 
-class YLModuleManager: NSObject, UIApplicationDelegate{
+class JRHModuleManager: NSObject, UIApplicationDelegate{
     
-    var modules:[YLModuleDelegate] = []
-    private static let singleInstance = YLModuleManager()
+    var modules:[JRHModuleDelegate] = []
+    private static let singleInstance = JRHModuleManager()
     
     
     
     // MARK: publick
-    class func shareInstance() -> YLModuleManager {
+    class func shareInstance() -> JRHModuleManager {
         return .singleInstance
     }
     
@@ -33,11 +28,11 @@ class YLModuleManager: NSObject, UIApplicationDelegate{
             let name: String = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
             let cls = NSClassFromString(name + "." + moduleName) as! NSObject.Type
             let moduleCls = cls.init()
-            modules.append(moduleCls as! YLModuleDelegate)
+            modules.append(moduleCls as! JRHModuleDelegate)
         }
     }
     
-    func allModules() -> Array<YLModuleDelegate> {
+    func allModules() -> Array<JRHModuleDelegate> {
         return modules
     }
     
@@ -115,5 +110,3 @@ class YLModuleManager: NSObject, UIApplicationDelegate{
         return res
     }
 }
-
-
