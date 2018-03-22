@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.platform              = :ios, '8.0'
     s.swift_version         = '4.0'
     s.source                = { :git => 'git@github.com:JeryHuo/JRHModuleManager.git', :tag => 'v1.0.0' }
-    s.source_files          = 'JRHModuleManager/*'
+    s.source_files          = 'JRHModuleManager/**/*.{swift}'
     s.framework             = 'UIKit'
     s.requires_arc          = true
 end
