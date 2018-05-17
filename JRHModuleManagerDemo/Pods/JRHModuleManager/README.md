@@ -1,0 +1,2 @@
+# JRHModuleManager
+AppDelegate瘦身方案Swift版本

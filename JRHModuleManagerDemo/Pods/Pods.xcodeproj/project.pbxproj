@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CAE2F1252AC835EC4DD6780F45E5EC /* JRHModuleManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F4BE8906782825D8A14BDD0030E5AE /* JRHModuleManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08325EF80EA3E43E044E10B48CF3A581 /* Pods-JRHModuleManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4404C5EB797B27CB21AE2244311E46 /* Pods-JRHModuleManagerDemo-dummy.m */; };
+		0DE13D818F7C072ED37FC3477F91EB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5D83EEFDB49A30A59877765AE1D7AE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8AE6BE7AB157C5F1D509BB36D2CB2AF5 /* JRHModuleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9B92DFCBD95170E24D58ABD3D0F91 /* JRHModuleManager-dummy.m */; };
+		9759C6681C13B551970E6DB740A466F2 /* Pods-JRHModuleManagerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2889E15DC68591FED4A989BBD5DA5AE6 /* Pods-JRHModuleManagerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB37BBB939442C33D7FEFCF9E8CFBE8 /* JRHModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0BE239F4C94856AB617E44EC6CB80B /* JRHModuleManager.swift */; };
+		F8686211878590BF18F4CCDC122A6501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BEA51C236BC63CECC674FE843A7C362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86C04E85182E6A79656312DB3D5B43D;
+			remoteInfo = JRHModuleManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050818BB22752CDBBE296DCA7A12C8DB /* Pods-JRHModuleManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRHModuleManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		09394E8F7561199F67A79DF232C041AA /* Pods_JRHModuleManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JRHModuleManagerDemo.framework; path = "Pods-JRHModuleManagerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD9B92DFCBD95170E24D58ABD3D0F91 /* JRHModuleManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRHModuleManager-dummy.m"; sourceTree = "<group>"; };
+		2889E15DC68591FED4A989BBD5DA5AE6 /* Pods-JRHModuleManagerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JRHModuleManagerDemo-umbrella.h"; sourceTree = "<group>"; };
+		2E4BD32F738F2655CAEA437DD45285CD /* JRHModuleManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRHModuleManager.framework; path = JRHModuleManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F6B561AC0ABA87EFDB28EB3E43F1F7 /* Pods-JRHModuleManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JRHModuleManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		39FC5D478094AD9A42AAE63CF25162A6 /* JRHModuleManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRHModuleManager.xcconfig; sourceTree = "<group>"; };
+		44F2EEA0D1A355FC87B507C4D36486AB /* Pods-JRHModuleManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JRHModuleManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47BBDD49A298DEA4951998855B306EC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F4BE8906782825D8A14BDD0030E5AE /* JRHModuleManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRHModuleManager-umbrella.h"; sourceTree = "<group>"; };
+		516A38767EDF080207FDA187DC806570 /* Pods-JRHModuleManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JRHModuleManagerDemo-resources.sh"; sourceTree = "<group>"; };
+		5A0BE239F4C94856AB617E44EC6CB80B /* JRHModuleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JRHModuleManager.swift; path = JRHModuleManager/JRHModuleManager.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A4404C5EB797B27CB21AE2244311E46 /* Pods-JRHModuleManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JRHModuleManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		AF2AB29677CFD8A433B623FBF7549268 /* JRHModuleManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JRHModuleManager.modulemap; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CA6C5CCE276A66670255F9B784190792 /* JRHModuleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRHModuleManager-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0352D84E1E3E6CA071F8340DCB60E63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3577D17C9E8BCB79604F8EC942F691A /* Pods-JRHModuleManagerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JRHModuleManagerDemo.modulemap"; sourceTree = "<group>"; };
+		F7C7C580AF7F09F8270CD2B3369ECFCE /* Pods-JRHModuleManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JRHModuleManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFB2BE171744EA105C2918879373B8EE /* Pods-JRHModuleManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JRHModuleManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7E797D03832A4724C93140F0992CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE13D818F7C072ED37FC3477F91EB14 /* Foundation.framework in Frameworks */,
+				F8686211878590BF18F4CCDC122A6501 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D0C194762D14324809F88116EB4BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D83EEFDB49A30A59877765AE1D7AE30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28260A86451CA0D530920D0DA1B5DCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BD32F738F2655CAEA437DD45285CD /* JRHModuleManager.framework */,
+				09394E8F7561199F67A79DF232C041AA /* Pods_JRHModuleManagerDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B40E765CD73AEC826D43207A42E05BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6665E686F49969F86DF0BA5DC2097EAB /* Pods-JRHModuleManagerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6665E686F49969F86DF0BA5DC2097EAB /* Pods-JRHModuleManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47BBDD49A298DEA4951998855B306EC4 /* Info.plist */,
+				F3577D17C9E8BCB79604F8EC942F691A /* Pods-JRHModuleManagerDemo.modulemap */,
+				44F2EEA0D1A355FC87B507C4D36486AB /* Pods-JRHModuleManagerDemo-acknowledgements.markdown */,
+				F7C7C580AF7F09F8270CD2B3369ECFCE /* Pods-JRHModuleManagerDemo-acknowledgements.plist */,
+				9A4404C5EB797B27CB21AE2244311E46 /* Pods-JRHModuleManagerDemo-dummy.m */,
+				35F6B561AC0ABA87EFDB28EB3E43F1F7 /* Pods-JRHModuleManagerDemo-frameworks.sh */,
+				516A38767EDF080207FDA187DC806570 /* Pods-JRHModuleManagerDemo-resources.sh */,
+				2889E15DC68591FED4A989BBD5DA5AE6 /* Pods-JRHModuleManagerDemo-umbrella.h */,
+				FFB2BE171744EA105C2918879373B8EE /* Pods-JRHModuleManagerDemo.debug.xcconfig */,
+				050818BB22752CDBBE296DCA7A12C8DB /* Pods-JRHModuleManagerDemo.release.xcconfig */,
+			);
+			name = "Pods-JRHModuleManagerDemo";
+			path = "Target Support Files/Pods-JRHModuleManagerDemo";
+			sourceTree = "<group>";
+		};
+		6ED9FBC8A0D1D4C94866DAB0196E42AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E54938D685A1B0F43890ED9A175D355D /* JRHModuleManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6ED9FBC8A0D1D4C94866DAB0196E42AF /* Pods */,
+				28260A86451CA0D530920D0DA1B5DCF4 /* Products */,
+				5B40E765CD73AEC826D43207A42E05BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CA17D93950EB3C5C2253BE78D1A54AD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0352D84E1E3E6CA071F8340DCB60E63 /* Info.plist */,
+				AF2AB29677CFD8A433B623FBF7549268 /* JRHModuleManager.modulemap */,
+				39FC5D478094AD9A42AAE63CF25162A6 /* JRHModuleManager.xcconfig */,
+				0FD9B92DFCBD95170E24D58ABD3D0F91 /* JRHModuleManager-dummy.m */,
+				CA6C5CCE276A66670255F9B784190792 /* JRHModuleManager-prefix.pch */,
+				47F4BE8906782825D8A14BDD0030E5AE /* JRHModuleManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JRHModuleManager";
+			sourceTree = "<group>";
+		};
+		E54938D685A1B0F43890ED9A175D355D /* JRHModuleManager */ = {
+			isa = PBXGroup;
+			children = (
+				5A0BE239F4C94856AB617E44EC6CB80B /* JRHModuleManager.swift */,
+				CA17D93950EB3C5C2253BE78D1A54AD9 /* Support Files */,
+			);
+			name = JRHModuleManager;
+			path = JRHModuleManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5255D400EB30388A1506EC209C3ACC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CAE2F1252AC835EC4DD6780F45E5EC /* JRHModuleManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8885EBF4F73BF8CE0EECC4B899134B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9759C6681C13B551970E6DB740A466F2 /* Pods-JRHModuleManagerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A565DB0DB476D1D0FCAB5375D991B6E7 /* Pods-JRHModuleManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35956BD22E3327212B2E8E4C31AA2D0D /* Build configuration list for PBXNativeTarget "Pods-JRHModuleManagerDemo" */;
+			buildPhases = (
+				2EA81F9F8DA940CF41A9CD3AA95C7355 /* Sources */,
+				E9D0C194762D14324809F88116EB4BDF /* Frameworks */,
+				B8885EBF4F73BF8CE0EECC4B899134B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3A685D432A0B5024F8E5FE0D492A63 /* PBXTargetDependency */,
+			);
+			name = "Pods-JRHModuleManagerDemo";
+			productName = "Pods-JRHModuleManagerDemo";
+			productReference = 09394E8F7561199F67A79DF232C041AA /* Pods_JRHModuleManagerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B86C04E85182E6A79656312DB3D5B43D /* JRHModuleManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A97C1F8847F1E689FBA8DE7E2C44E0E /* Build configuration list for PBXNativeTarget "JRHModuleManager" */;
+			buildPhases = (
+				B8FFA5642D112E2C36D73056FC7F54FE /* Sources */,
+				9B7E797D03832A4724C93140F0992CEB /* Frameworks */,
+				A5255D400EB30388A1506EC209C3ACC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRHModuleManager;
+			productName = JRHModuleManager;
+			productReference = 2E4BD32F738F2655CAEA437DD45285CD /* JRHModuleManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 28260A86451CA0D530920D0DA1B5DCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86C04E85182E6A79656312DB3D5B43D /* JRHModuleManager */,
+				A565DB0DB476D1D0FCAB5375D991B6E7 /* Pods-JRHModuleManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA81F9F8DA940CF41A9CD3AA95C7355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08325EF80EA3E43E044E10B48CF3A581 /* Pods-JRHModuleManagerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FFA5642D112E2C36D73056FC7F54FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE6BE7AB157C5F1D509BB36D2CB2AF5 /* JRHModuleManager-dummy.m in Sources */,
+				AAB37BBB939442C33D7FEFCF9E8CFBE8 /* JRHModuleManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3A685D432A0B5024F8E5FE0D492A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRHModuleManager;
+			target = B86C04E85182E6A79656312DB3D5B43D /* JRHModuleManager */;
+			targetProxy = 8BEA51C236BC63CECC674FE843A7C362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB6C92B9A0DDB47FFC8CC9374746584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FC5D478094AD9A42AAE63CF25162A6 /* JRHModuleManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRHModuleManager/JRHModuleManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRHModuleManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRHModuleManager/JRHModuleManager.modulemap";
+				PRODUCT_NAME = JRHModuleManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28A047C1ED2A8E718A1F7672A8605946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB2BE171744EA105C2918879373B8EE /* Pods-JRHModuleManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JRHModuleManagerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JRHModuleManagerDemo/Pods-JRHModuleManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JRHModuleManagerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FA4EFFB9EB8C2A88FBCAD8439914A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050818BB22752CDBBE296DCA7A12C8DB /* Pods-JRHModuleManagerDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JRHModuleManagerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JRHModuleManagerDemo/Pods-JRHModuleManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JRHModuleManagerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8185756E409AEA91152D52229E904A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FC5D478094AD9A42AAE63CF25162A6 /* JRHModuleManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JRHModuleManager/JRHModuleManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRHModuleManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRHModuleManager/JRHModuleManager.modulemap";
+				PRODUCT_NAME = JRHModuleManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35956BD22E3327212B2E8E4C31AA2D0D /* Build configuration list for PBXNativeTarget "Pods-JRHModuleManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A047C1ED2A8E718A1F7672A8605946 /* Debug */,
+				4FA4EFFB9EB8C2A88FBCAD8439914A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A97C1F8847F1E689FBA8DE7E2C44E0E /* Build configuration list for PBXNativeTarget "JRHModuleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB6C92B9A0DDB47FFC8CC9374746584 /* Debug */,
+				8185756E409AEA91152D52229E904A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
