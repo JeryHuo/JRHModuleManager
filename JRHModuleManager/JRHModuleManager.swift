@@ -3,23 +3,23 @@
 
 import UIKit
 
-protocol JRHModuleDelegate: UIApplicationDelegate{
+public protocol JRHModuleDelegate: UIApplicationDelegate{
     
 }
 
-class JRHModuleManager: NSObject, UIApplicationDelegate{
+public class JRHModuleManager: NSObject, UIApplicationDelegate{
     
-    var modules:[JRHModuleDelegate] = []
+    private var modules:[JRHModuleDelegate] = []
     private static let singleInstance = JRHModuleManager()
     
     
     
-    // MARK: publick
-    class func shareInstance() -> JRHModuleManager {
+    // MARK: publick method
+    public static func shareInstance() -> JRHModuleManager {
         return .singleInstance
     }
     
-    func loadModulesWithPlistFile(filePath: String) {
+    public func loadModulesWithPlistFile(filePath: String) {
         let moduleNames: NSArray = NSArray.init(contentsOfFile: filePath)!
         let moduleNameArr: Array = moduleNames as! [String]
         modules.removeAll()
@@ -32,14 +32,14 @@ class JRHModuleManager: NSObject, UIApplicationDelegate{
         }
     }
     
-    func allModules() -> Array<JRHModuleDelegate> {
+    public func allModules() -> Array<JRHModuleDelegate> {
         return modules
     }
     
     
     
     // MARK: 启动
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+    public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         for module in modules {
             _ = module.application?(application, didFinishLaunchingWithOptions: launchOptions)
         }
@@ -50,19 +50,19 @@ class JRHModuleManager: NSObject, UIApplicationDelegate{
     
     // MARK: 操作
     // 进入后台/退出程序
-    func applicationDidEnterBackground(_ application: UIApplication) {
+    public func applicationDidEnterBackground(_ application: UIApplication) {
         for module in modules {
             _ = module.applicationDidEnterBackground?(application)
         }
     }
     // 从后台回来点击进入应用
-    func applicationWillEnterForeground(_ application: UIApplication) {
+    public func applicationWillEnterForeground(_ application: UIApplication) {
         for module in modules {
             _ = module.applicationWillEnterForeground?(application)
         }
     }
     // 关闭应用
-    func applicationWillTerminate(_ application: UIApplication) {
+    public func applicationWillTerminate(_ application: UIApplication) {
         for module in modules {
             _ = module.applicationWillTerminate?(application)
         }
@@ -72,19 +72,19 @@ class JRHModuleManager: NSObject, UIApplicationDelegate{
     
     // MARK: 推送
     // 获取deviceToken
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    public func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         for module in modules {
             _ = module.application?(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
         }
     }
     // 获取deviceToken失败
-    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+    public func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         for module in modules {
             _ = module.application?(application, didFailToRegisterForRemoteNotificationsWithError: error)
         }
     }
     // 收到通知
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         for module in modules {
             _ = module.application?(application, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: completionHandler)
         }
@@ -93,7 +93,7 @@ class JRHModuleManager: NSObject, UIApplicationDelegate{
     
     
     // MARK: 后台播放音频
-    func applicationWillResignActive(_ application: UIApplication) {
+    public func applicationWillResignActive(_ application: UIApplication) {
         for module in modules {
             _ = module.applicationWillResignActive?(application)
         }
@@ -102,7 +102,7 @@ class JRHModuleManager: NSObject, UIApplicationDelegate{
     
     
     // MARK: 第三方跳转回调处理
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+    public func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         var res = false
         for module in modules {
             res = (module.application?(application, open: url, sourceApplication: sourceApplication, annotation: annotation))!
