@@ -1,6 +1,0 @@
-framework module JRHModuleManager {
-  umbrella header "JRHModuleManager-umbrella.h"
-
-  export *
-  module * { export * }
-}
