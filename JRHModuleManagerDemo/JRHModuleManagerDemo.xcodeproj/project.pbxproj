@@ -54,16 +54,8 @@
 				4094F71420AE6CBC00B2F3E5 /* LaunchScreen.storyboard */,
 				4094F71620AE6CBC00B2F3E5 /* Main.storyboard */,
 				4094F71820AE6CBC00B2F3E5 /* Info.plist */,
-				4094F71920AE6CBC00B2F3E5 /* JRHModuleManagerDemo */,
 				4094F71A20AE6CBC00B2F3E5 /* Resources */,
 				4094F71C20AE6CBC00B2F3E5 /* ViewController.swift */,
-			);
-			path = JRHModuleManagerDemo;
-			sourceTree = "<group>";
-		};
-		4094F71920AE6CBC00B2F3E5 /* JRHModuleManagerDemo */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = JRHModuleManagerDemo;
 			sourceTree = "<group>";
