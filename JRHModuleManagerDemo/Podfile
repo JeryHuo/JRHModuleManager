@@ -1,5 +1,5 @@
 platform:ios, ‘8.0’
 use_frameworks!
 target “JRHModuleManagerDemo” do
-pod 'JRHModuleManager', '~> 1.0.4’
+pod 'JRHModuleManager', '~> 1.0.5’
 end

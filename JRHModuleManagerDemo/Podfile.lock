@@ -1,12 +1,12 @@
 PODS:
-  - JRHModuleManager (1.0.4)
+  - JRHModuleManager (1.0.5)
 
 DEPENDENCIES:
-  - JRHModuleManager (~> 1.0.4)
+  - JRHModuleManager (~> 1.0.5)
 
 SPEC CHECKSUMS:
-  JRHModuleManager: 4311b05d3c56c80a9aff27e598d1bf7f08c20de9
+  JRHModuleManager: 367ecd051464b6cd8fb04eb892b8455827d67c1f
 
-PODFILE CHECKSUM: 17a21cb49f05e6a2945edaa670b47819c33d74b9
+PODFILE CHECKSUM: ed42a31aff5a1e38e0b13ce8973a2435ba73836b
 
 COCOAPODS: 1.4.0

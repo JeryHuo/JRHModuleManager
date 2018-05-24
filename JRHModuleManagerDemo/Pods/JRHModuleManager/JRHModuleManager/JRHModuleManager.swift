@@ -24,7 +24,6 @@ public class JRHModuleManager: NSObject, UIApplicationDelegate{
         let moduleNameArr: Array = moduleNames as! [String]
         modules.removeAll()
         for moduleName in moduleNameArr {
-            // swift中在使用NSClassFromString,字符串转类型时,如果是自定义的类,需要+项目名称+.才可以获取到.
             let name: String = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
             let cls = NSClassFromString(name + "." + moduleName) as! NSObject.Type
             let moduleCls = cls.init()
@@ -41,7 +40,7 @@ public class JRHModuleManager: NSObject, UIApplicationDelegate{
     // MARK: 启动
     public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         for module in modules {
-            _ = module.application?(application, didFinishLaunchingWithOptions: launchOptions)
+            module.application?(application, didFinishLaunchingWithOptions: launchOptions)
         }
         return true
     }
@@ -49,44 +48,44 @@ public class JRHModuleManager: NSObject, UIApplicationDelegate{
     
     
     // MARK: 操作
-    // 进入后台/退出程序
+    /// 进入后台/退出程序
     public func applicationDidEnterBackground(_ application: UIApplication) {
         for module in modules {
-            _ = module.applicationDidEnterBackground?(application)
+            module.applicationDidEnterBackground?(application)
         }
     }
-    // 从后台回来点击进入应用
+    /// 从后台回来点击进入应用
     public func applicationWillEnterForeground(_ application: UIApplication) {
         for module in modules {
-            _ = module.applicationWillEnterForeground?(application)
+            module.applicationWillEnterForeground?(application)
         }
     }
-    // 关闭应用
+    /// 关闭应用
     public func applicationWillTerminate(_ application: UIApplication) {
         for module in modules {
-            _ = module.applicationWillTerminate?(application)
+            module.applicationWillTerminate?(application)
         }
     }
     
     
     
     // MARK: 推送
-    // 获取deviceToken
+    /// 获取deviceToken
     public func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         for module in modules {
-            _ = module.application?(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
+            module.application?(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
         }
     }
-    // 获取deviceToken失败
+    /// 获取deviceToken失败
     public func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         for module in modules {
-            _ = module.application?(application, didFailToRegisterForRemoteNotificationsWithError: error)
+            module.application?(application, didFailToRegisterForRemoteNotificationsWithError: error)
         }
     }
-    // 收到通知
+    /// 收到通知
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         for module in modules {
-            _ = module.application?(application, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: completionHandler)
+            module.application?(application, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: completionHandler)
         }
     }
     
@@ -95,7 +94,7 @@ public class JRHModuleManager: NSObject, UIApplicationDelegate{
     // MARK: 后台播放音频
     public func applicationWillResignActive(_ application: UIApplication) {
         for module in modules {
-            _ = module.applicationWillResignActive?(application)
+            module.applicationWillResignActive?(application)
         }
     }
     
